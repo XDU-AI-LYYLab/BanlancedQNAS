@@ -14,7 +14,8 @@ In the last decade, there has been continuously increasing attention on Neural A
 CIFAR-10 and CIFAR-100
 
 # Usage
-torch 1.12
+pytorch 1.12
+
 Searching stage:
 python search_example.py 
 Training stage:
@@ -24,3 +25,13 @@ The configs can be adjusted in lib/config_file/
 
 # Citation
 If you find this code implementation useful in your research, please consider citing the following paper:
+@article{LI2024127860,
+title = {Balanced quantum neural architecture search},
+journal = {Neurocomputing},
+pages = {127860},
+year = {2024},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2024.127860},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231224006313},
+author = {Yangyang Li and Guanlong Liu and Peixiang Zhao and Ronghua Shang and Licheng Jiao},
+}
