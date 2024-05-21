@@ -16,9 +16,10 @@ CIFAR-10 and CIFAR-100
 # Usage
 pytorch 1.12
 
-Searching stage:
+  # Searching stage:
 python search_example.py 
-Training stage:
+
+  # Training stage:
 python evaluate_example.py
 
 The configs can be adjusted in lib/config_file/
