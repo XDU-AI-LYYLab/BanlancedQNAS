@@ -1,7 +1,7 @@
 # Balanced-Quantum-Neural-Architecture-Search
 This repository contains the code implementation for the paper "Banlanced Quantum Neural Architecture Search".
 
-[BQNAS Framework:](https://github.com/XDU-AI-LYYLab/BanlancedQNAS/assets/40205661/f755c13f-3337-4034-a9db-fa8b30cd17b1)
+[BQNAS Framework:] (https://github.com/XDU-AI-LYYLab/BanlancedQNAS/assets/40205661/f755c13f-3337-4034-a9db-fa8b30cd17b1)
 [BQNAS paper:] (https://doi.org/10.1016/j.neucom.2024.127860)
 
 # Abstract
