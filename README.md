@@ -1,8 +1,9 @@
 # Balanced-Quantum-Neural-Architecture-Search
 This repository contains the code implementation for the paper "Banlanced Quantum Neural Architecture Search".
 
-![BQNAS Framework:] (https://github.com/XDU-AI-LYYLab/BanlancedQNAS/assets/40205661/f755c13f-3337-4034-a9db-fa8b30cd17b1)
 [BQNAS paper:] (https://doi.org/10.1016/j.neucom.2024.127860)
+![BQNAS Framework:](https://github.com/XDU-AI-LYYLab/BanlancedQNAS/assets/40205661/aa180358-4d90-4e92-ba19-adfb465bbeb8)
+
 
 # Abstract
 In the last decade, there has been continuously increasing attention on Neural Architecture Search (NAS). The design of network architecture is aimed at automatically generating efficient neural networks in the absence of prior knowledge. Most of current oneshot NAS methods are based on weight sharing. However, there are two main problems that lead to suboptimal search results. Firstly, the large scale supernet results in a complex and difficult search for optimal subnetwork structures in the large discrete search space. Secondly, weight sharing makes the internal weight parameters of the supernet cannot always vary towards the final weights required for the optimal network structure due to the influence of different structures. These problems are responsible for the fact that the performance of the subnetworks searched by the supernet cannot represent the real performance of the subnetworks trained from scratch. To solve these problems, we propose the method based on quantum evolution and balance pool, called BQNAS, which consists of two stages. The single path supernet is trained based on weight sharing and balance pool sampling method. Then, quantum parallelism is exploited for one-hot encoding and searching for the optimal subnetwork structure based on quantum evolutionary algorithms. It can greatly improve the search efficiency of oneshot approaches in subnetwork sampling and evaluate the real performance for searching for superior subnetwork structure. Extensive experiments on two datasets show that the proposed approach outperforms the state-of-the-art ones. Specifically, BQNAS achieves a top-1 accuracy of 97.27% on CIFAR-10 and 81.36% on CIFAR-100 datasets.
