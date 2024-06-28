@@ -40,14 +40,13 @@ The configs can be adjusted in lib/config_file/
 If you find this code implementation useful in your research, please consider citing the following paper:
 
 ```
-@article{LI2024127860,
-title = {Balanced quantum neural architecture search},
-journal = {Neurocomputing},
-pages = {127860},
-year = {2024},
-issn = {0925-2312},
-doi = {https://doi.org/10.1016/j.neucom.2024.127860},
-url = {https://www.sciencedirect.com/science/article/pii/S0925231224006313},
-author = {Yangyang Li and Guanlong Liu and Peixiang Zhao and Ronghua Shang and Licheng Jiao},
+@article{li2024balanced,
+  title={Balanced quantum neural architecture search},
+  author={Li, Yangyang and Liu, Guanlong and Zhao, Peixiang and Shang, Ronghua and Jiao, Licheng},
+  journal={Neurocomputing},
+  volume={594},
+  pages={127860},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
